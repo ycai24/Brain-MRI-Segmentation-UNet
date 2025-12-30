@@ -1,0 +1,20 @@
+# 1. Ignore the Data
+data/
+datasets/
+*.zip
+
+# 2. Ignore Python "Compiled" files
+__pycache__/
+*.pyc
+
+# 3. Ignore Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# 4. Ignore Virtual Environments
+venv/
+env/
+.env
+
+# 5. Ignore System Files
+.DS_Store
+Thumbs.db
