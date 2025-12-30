@@ -9,7 +9,7 @@ Medical image segmentation is a critical step in diagnosing and monitoring cance
 ## Methodology and Technical Approach
 Data Pipeline
 - Source: LGG Segmentation Dataset containing multi-patient MRI slices and expert-labeled ground truth masks.
-- Preprocessing: Implemented a custom BrainTumorDataset class in PyTorch using OpenCV. Processing steps included channel reordering (HWC --> CHW), normalization (scaling pixel intensities to [0, 1]), and separating valid mask-image pairs from the raw directory structure.Data Split: Utilized an 80/20 train-validation split to ensure the model's performance is evaluated on unseen medical data.
+- Preprocessing: Implemented a custom BrainTumorDataset class in PyTorch using OpenCV. Processing steps included channel reordering (HWC --> CHW), normalization (scaling pixel intensities to [0, 1]), and separating valid mask-image pairs from the raw directory structure.
 - Data Split: Utilized an 80/20 train-validation split to ensure the model's performance is evaluated on unseen medical data.
 ## Model Architecture: U-Net
 The project employs the U-Net architecture, the gold standard for biomedical image segmentation.
@@ -42,3 +42,4 @@ The model successfully localizes tumor regions. Below is a sample prediction (Ri
    ```bash
 
    pip install -r requirements.txt
+
