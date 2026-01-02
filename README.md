@@ -1,4 +1,4 @@
-# Brain Tumor Segmentation using U-Net
+# Brain Tumor Segmentation using U-Net (***work in progress***)
 
 ## Project Overview
 This project implements a state-of-the-art Deep Learning model to automate the detection and segmentation of brain tumors (specifically Lower-Grade Gliomas) from Magnetic Resonance Imaging (MRI) scans. By leveraging a U-Net architecture built in PyTorch, the system processes 2D MRI slices to generate precise binary masks that identify tumor boundaries. This tool aims to assist radiologists by reducing the manual effort required for tumor volumetry and treatment planning.
@@ -42,4 +42,5 @@ The model successfully localizes tumor regions. Below is a sample prediction (Ri
    ```bash
 
    pip install -r requirements.txt
+
 
